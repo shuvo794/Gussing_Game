@@ -7,7 +7,7 @@ int main(){
     int hidden =rand()%100+1;
     printf("%d",hidden);
     int gusess_of_number=0;
-    while(true){
+    while(gusess_of_number<10){
       int gucses;
       scanf("%d",&gucses);
 
