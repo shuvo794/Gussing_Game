@@ -6,7 +6,7 @@ int main(){
     srand(time(0));
     int hidden =rand()%100+1;
     printf("%d",hidden);
-
+    int gusess_of_number=0;
     while(true){
       int gucses;
       scanf("%d",&gucses);
