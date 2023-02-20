@@ -6,13 +6,17 @@ int main(){
     srand(time(0));
     int hidden =rand()%100+1;
     printf("%d\n",hidden);
+
     int gusess_of_number=0;
-    while(gusess_of_number<10){
+
+    while(gusess_of_number < 2){
+     
       int gucses;
-      scanf("%d\n",&gucses);
+      scanf("%d",&gucses);
 
       if(gucses==hidden){
         printf("You are win\n");
+        break;
       }
       else if (gucses<hidden)
       {
@@ -21,12 +25,13 @@ int main(){
       else{
         printf("Guscces a smaller\n");
       }
+      gusess_of_number++;
       
 }
 
-   if(gusess_of_number==10){
-       printf("You are loss");
+   if(gusess_of_number == 2){
+       printf("You are losser");
    }
      
-    return 0;
+   
 }
