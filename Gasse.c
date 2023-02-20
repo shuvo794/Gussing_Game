@@ -11,6 +11,17 @@ int main(){
       int gucses;
       scanf("%d",&gucses);
 
+      if(gucses==hidden){
+        printf("You are win\n");
+      }
+      else if (gucses<hidden)
+      {
+        printf("Guscces a lerger");
+      }
+      
+
+
+
 
         
     }
