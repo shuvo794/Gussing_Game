@@ -9,17 +9,17 @@ int main(){
     int gusess_of_number=0;
     while(gusess_of_number<10){
       int gucses;
-      scanf("%d",&gucses);
+      scanf("%d\n",&gucses);
 
       if(gucses==hidden){
         printf("You are win\n");
       }
       else if (gucses<hidden)
       {
-        printf("Guscces a lerger");
+        printf("Guscces a lerger\n");
       }
       else{
-        printf("Guscces a smaller");
+        printf("Guscces a smaller\n");
       }
       
 }
