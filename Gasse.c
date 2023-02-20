@@ -18,6 +18,9 @@ int main(){
       {
         printf("Guscces a lerger");
       }
+      else{
+        printf("Guscces a smaller");
+      }
       
 
 
