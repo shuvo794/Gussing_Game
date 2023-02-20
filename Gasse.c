@@ -8,6 +8,9 @@ int main(){
     printf("%d",hidden);
 
     while(true){
+      int gucses;
+      scanf("%d",&gucses);
+
 
         
     }
