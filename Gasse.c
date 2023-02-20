@@ -24,5 +24,9 @@ int main(){
       
 }
 
+   if(gusess_of_number==10){
+       printf("You are loss");
+   }
+     
     return 0;
 }
