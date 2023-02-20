@@ -33,5 +33,5 @@ int main(){
        printf("You are losser");
    }
      
-   
+   return 0;
 }
