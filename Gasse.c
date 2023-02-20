@@ -22,12 +22,7 @@ int main(){
         printf("Guscces a smaller");
       }
       
-
-
-
-
-        
-    }
+}
 
     return 0;
 }
